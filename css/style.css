@@ -52,6 +52,7 @@ body {
      font-family: Helvetica, Arial, sans-serif;
      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
       background-size: cover;
+      margin: 0;
 }
 
 
@@ -68,12 +69,23 @@ body {
 }
 
 header {
+  margin: 50px;
+  margin-bottom: 200px;
+}
 
+main {
+  background: #dddddd;
+  padding: 50px;
+}
+
+aside{
+  background: url(../images/testimonial_bg.jpg) no-repeat center top;
+   background-size: cover;
+   padding: 50px;
 }
 
 footer {
   background-color: black;
-
 }
 
 /******************************************
@@ -164,10 +176,16 @@ button {
   border-radius: 5px;
 }
 
+.sign-up-now{
+  background-color: #f9e42e;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
 .footeralign {
-  display: center-table;
-  width: 20%;
-  margin: 0 auto;
+  background-color: #121212;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .copyright-type {
@@ -175,4 +193,12 @@ button {
   color: white;
   font-weight: bolder;
   text-align: center;
+}
+
+.logocenter {
+  display: inline-block;
+  margin: 0 auto;
+  position: relative;
+  /*margin-left: auto;
+  margin-right: auto;*/
 }
